@@ -13,6 +13,8 @@ describe('Alerts',()=>{
         })
 //alert window automatically closed by cypress
         cy.get('#result').should('have.text','You successfully clicked an alert')
+        cy.get('#result').should('have.text','You successfully clicked an alert')
+
     })
 
 
